@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HireHuntBackend", "HireHuntBackend\HireHuntBackend.csproj", "{A1F698F3-644F-4F77-A0E0-828105177457}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1F698F3-644F-4F77-A0E0-828105177457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F698F3-644F-4F77-A0E0-828105177457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F698F3-644F-4F77-A0E0-828105177457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F698F3-644F-4F77-A0E0-828105177457}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {524BFF83-E916-447E-97FA-6A11162C06D3}
+	EndGlobalSection
+EndGlobal

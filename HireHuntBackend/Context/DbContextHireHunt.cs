@@ -1,0 +1,11 @@
+﻿using HireHuntBackend.Model;
+using Microsoft.EntityFrameworkCore;
+
+namespace HireHuntBackend.Context
+{
+    public class DbContextHireHunt:DbContext
+    {
+        public DbContextHireHunt(DbContextOptions<DbContextHireHunt> options) : base(options) { }
+        public DbSet<JobPost> JobPosts { get; set; }
+    }
+}
