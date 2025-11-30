@@ -35,8 +35,8 @@ app.MapControllers();
 app.UseHangfireDashboard();
 
 // 5. ADD YOUR RECURRING JOB HERE
-RecurringJob.AddOrUpdate<ExternalJobsService>(
-    job => job.WeWorkRemotely(),
-    Cron.MinuteInterval(1)
-);
+//RecurringJob.AddOrUpdate<ExternalJobsService>(
+//    job => job.WeWorkRemotely(),
+//    Cron.MinuteInterval(10)
+//);
 app.Run();
