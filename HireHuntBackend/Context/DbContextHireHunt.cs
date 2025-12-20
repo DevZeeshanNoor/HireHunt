@@ -7,5 +7,6 @@ namespace HireHuntBackend.Context
     {
         public DbContextHireHunt(DbContextOptions<DbContextHireHunt> options) : base(options) { }
         public DbSet<JobPost> JobPosts { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

@@ -9,5 +9,10 @@
                 ArbeitNow=3,
             Remotive=4
         }
+        public enum Roles
+        {
+            Admin=1,
+            User = 2,
+        }
     }
 }
