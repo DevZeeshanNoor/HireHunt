@@ -11,8 +11,27 @@
         }
         public enum Roles
         {
-            Admin=1,
-            User = 2,
+            JobSeeker = 1,
+            Recruiter = 2
+        }
+        public enum HearAboutAs
+        {
+            GoogleSearch=1,
+            SocialMedia = 2,
+            LinkedIn = 3,
+            Advertisement=4,
+            EmailNewsletter = 5,
+            Other=99
+        }
+
+        public enum JobTypes
+        {
+            FullTime=1,
+            PartTime=2,
+            Temporary=3,
+            Contract=4,
+            Internship=5,
+            Fresher=6
         }
     }
 }

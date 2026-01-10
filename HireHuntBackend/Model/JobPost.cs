@@ -1,4 +1,5 @@
-﻿namespace HireHuntBackend.Model
+﻿
+namespace HireHuntBackend.Model
 {
     public class JobPost
     {
@@ -11,7 +12,7 @@
         public string? Category { get; set; }
         public string? Description { get; set; }      
         public DateTime? PostedDate { get; set; }
-        public DateTime CreationDateTime { get; set; }= DateTime.Now;
+        public DateTime CreationDateTime { get; set; }= DateTime.UtcNow;
     }
 
 }
